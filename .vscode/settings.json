@@ -1,0 +1,37 @@
+{
+    "window.zoomLevel": 0,
+    //WORKBENCH
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    //EDITOR
+    "editor.formatOnSave": true,
+    //EXPLORER
+    "explorer.compactFolders": false,
+    //ARQUIVOS
+    "files.eol": "\n", //"files.eol": "\r\n"    
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.hg/store/**": true,
+        "**/vendor/*/**": true
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    //PHP
+    "php.suggest.basic": false,
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "php.validate.enable": true,
+    //PHP SNIFFER
+    "phpSniffer.run": "onType",
+    "phpSniffer.autoDetect": true,
+    "phpSniffer.standard": "PSR12",
+    "[php]": {
+        "editor.defaultFormatter": "wongjn.php-sniffer"
+    },
+}
