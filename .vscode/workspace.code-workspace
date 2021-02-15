@@ -3,6 +3,10 @@
 		{
 			"name": "Workspace",
 			"path": ".."
+		},
+		{
+			"name": "BoletoSicoob",
+			"path": "..\\..\\BoletoSicoob"
 		}
 	],
 	"settings": {}
