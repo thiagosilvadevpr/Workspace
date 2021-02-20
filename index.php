@@ -1,8 +1,3 @@
 <?php
 
-$teste = 1;
- echo $teste;
-
-
-
-
+require 'vendor/autoload.php';
