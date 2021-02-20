@@ -1,0 +1,14 @@
+{
+    "name": "workspace/vscode_workspace",
+    "description": "Configuração basica de um ambiente para desenvovlimento php",
+    "authors": [
+        {
+            "name": "Thiago Silva",
+            "email": "thiagosilva.dev.pr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.8",
+        "squizlabs/php_codesniffer": "3.*"
+    }
+}
