@@ -6,10 +6,11 @@
     "workbench.colorTheme": "Dracula",
     //EDITOR
     "editor.formatOnSave": true,
+    "editor.tabSize": 2,
     //EXPLORER
     "explorer.compactFolders": false,
     //ARQUIVOS
-    "files.eol": "\n", //"files.eol": "\r\n"    
+    "files.eol": "\n", // "\r\n"    
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
@@ -34,4 +35,9 @@
     "[php]": {
         "editor.defaultFormatter": "wongjn.php-sniffer"
     },
+    //PROJECT MANAGER
+    "projectManager.git.baseFolders": [
+        "C:\\xampp\\htdocs\\workspace",
+        "D:\\servidor\\var\\www"
+    ],
 }

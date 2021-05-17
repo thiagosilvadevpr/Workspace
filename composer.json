@@ -1,14 +1,29 @@
 {
-    "name": "workspace/vscode_workspace",
-    "description": "Configuração basica de um ambiente para desenvovlimento php",
+    "name": "thiagosilva/vscode_workspace",
+    "description": "CONFIGURAÇÃOES BASICAS PARA UM AMBIENTE DE DESENVOLVIMENTO WEB PHP",
+    "minimum-stability": "stable",
+    "license": "MIT",
     "authors": [
         {
             "name": "Thiago Silva",
-            "email": "thiagosilva.dev.pr@gmail.com"
+            "email": "thiagosilva.dev.pr@outlook.com",
+            "role": "Developer",
+            "homepage": "https://pesadelocontabil.com.br"
         }
     ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "files": [
+            "src/Config.php"
+        ]
+    },
     "require": {
-        "php": ">=5.2.8",
-        "squizlabs/php_codesniffer": "3.*
+        "php": ">=7.3.0",
+        "squizlabs/php_codesniffer": "*"
     }
 }

@@ -1,12 +1,12 @@
 {
 	"folders": [
 		{
-			"name": "Workspace",
-			"path": ".."
+			"name": "workspace",
+			"path": "C:\\xampp\\htdocs\\workspace"
 		},
 		{
-			"name": "BoletoSicoob",
-			"path": "..\\..\\BoletoSicoob"
+			"name": "www",
+			"path": "D:\\servidor\\var\\www"
 		}
 	],
 	"settings": {}

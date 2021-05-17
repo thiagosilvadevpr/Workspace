@@ -1,0 +1,31 @@
+Download a instalação MariaDB
+  * https://mariadb.org/download/
+    ou
+  * https://www.apachefriends.org/pt_br/download.html
+
+1- Adicionar senha usuario root mariadb;
+    # mysqladmin.exe -u root password 1234
+
+2- Logar no mariadb:
+    # mysql -u root -p
+
+3- Adicionar usuario mariadb:
+    mysql> CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'password';
+      ou
+    mysql> CREATE USER 'new_user'@'%' IDENTIFIED BY 'password';
+
+4- Adicionar privilegios ao usuario criado:
+    mysql> GRANT ALL PRIVILEGES ON * . * TO 'new_user'@'localhost';
+      ou
+    mysql> GRANT ALL PRIVILEGES ON * . * TO 'new_user'@'%';
+  
+5- Recarregar todos os  privilegios:
+    mysql> FLUSH PRIVILEGES;
+
+6- Remover usuario;
+    mysql> DROP USER 'new_user'@'localhost';
+      ou
+    mysql> DROP USER 'new_user'@'%';
+  
+7- Importar/Sobrescrever base de dados;
+    # mysql -u root -p < C:/xampp/htdocs/workspace/mysql/db_name
