@@ -33,11 +33,11 @@
     "phpSniffer.autoDetect": true,
     "phpSniffer.standard": "PSR12",
     "[php]": {
-        "editor.defaultFormatter": "wongjn.php-sniffer"
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
     //PROJECT MANAGER
     "projectManager.git.baseFolders": [
-        "C:\\xampp\\htdocs\\workspace",
+        "D:\\workspace\\Workspace",
         "D:\\servidor\\var\\www"
-    ],
+    ]
 }
